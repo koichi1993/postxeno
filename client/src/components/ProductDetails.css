@@ -1,0 +1,85 @@
+.product-details-page {
+  min-height: 100vh;
+  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(to bottom, #2c003e, #000000);
+  color: #e2e6ea;
+}
+
+
+.product-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 30px;
+  gap: 50px;
+  margin-left: -100px; 
+}
+
+.product-image {
+  width: 400px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.product-info {
+  max-width: 800px;
+  width: 100%;
+}
+
+
+.product-info h2 {
+  font-size: 2.5rem;
+  margin-top: 0; /* Set this to 0 */
+  margin-bottom: 10px;
+  color: white;
+}
+
+
+.product-info p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #cccccc;
+  word-wrap: break-word;
+  word-break: break-word;
+  max-width: 100%; /* make sure it doesn't go beyond the container */
+}
+
+
+.product-info .price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  margin: 20px 0;
+}
+
+.product-info button {
+  padding: 12px 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  background-color: #20c997;
+  color: #000;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-info button:hover {
+  background-color: #1aaa82;
+}
+
+.site-logo {
+
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 1.2rem;         /* Smaller size */
+  font-weight: bold;
+  color: white;            /* Or black, depending on background */
+  z-index: 1000;           /* Make sure it stays on top */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

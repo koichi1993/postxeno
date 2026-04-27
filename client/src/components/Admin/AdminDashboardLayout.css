@@ -1,0 +1,30 @@
+/* AdminDashboardLayout.css */
+.admin-dashboard-layout {
+  background-color: white;
+  color: black;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.admin-dashboard-layout nav {
+  margin-top: 20px;
+}
+
+.admin-dashboard-layout a {
+  margin: 0 10px;
+  color: blue;
+  text-decoration: none;
+}
+
+.admin-dashboard-layout a:hover {
+  text-decoration: underline;
+}
+
+.admin-dashboard-layout button {
+  margin-bottom: 20px;
+  padding: 8px 16px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

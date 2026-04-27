@@ -1,0 +1,21 @@
+/* Success.css */
+.success-page {
+  background-color: #ffffff; /* White */
+  color: #000000; /* Black text */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.success-page h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.success-page p {
+  font-size: 1.2rem;
+}

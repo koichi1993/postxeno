@@ -1,0 +1,71 @@
+/* AdminProducts.css */
+
+.admin-products-container {
+  background-color: #fff;
+  color: #000;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.admin-products-container h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.admin-products-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+.admin-products-form input,
+.admin-products-form textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.admin-products-form button {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.admin-products-form button:hover {
+  background-color: #333;
+}
+
+.product-entry {
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+}
+
+.product-entry h4 {
+  margin-bottom: 8px;
+}
+
+.product-entry img {
+  width: 150px;
+  height: auto;
+  object-fit: cover;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
+.status-message {
+  margin-top: 15px;
+  font-weight: bold;
+}
